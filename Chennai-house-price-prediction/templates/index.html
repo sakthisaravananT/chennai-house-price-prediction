@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Housing Price Prediction</title>
+  <link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+
+  <h1>Housing Price Prediction in Chennai</h1>
+  
+  <div id="container">
+    <form method="post">
+      <label for="area">AREA:</label>
+      <select name="area" id="area">
+        <option value= 1>Adyar</option>
+        <option value=  2>Ana Nagar</option>
+        <option value= 3 >chrompt</option>
+        <option value= 4 >KK Nagar</option>
+        <option value=  5>Korampakam</option>
+        <option value=  6>R Nagar</option>
+        <option value= 7 >Velachery</option>
+      </select>
+  
+      <label for="int_sqft">Interior Square Feet:</label>
+      <input type="number" name="int_sqft" id="int_sqft">
+  
+      <label for="dist_mainroad"> Distance to Main Road :</label>
+      <input type="number" name="dist_mainroad" id="dist_mainroad">
+  
+      <label for="n_bedroom"> Number of Bedrooms:</label>
+      <input type="number" name="n_bedroom" id="n_bedroom">
+  
+      <label for="n_bathroom"> Number of Bathrooms:</label>
+      <input type="number" name="n_bathroom" id="n_bathroom">
+  
+      <label for="n_room">Number of Rooms:</label>
+      <input type="number" name="n_room" id="n_room">
+  
+      <label for="park_facil">Parking Facility:</label>
+      <select name="park_facil" id="park_facil">
+        <option value= 0 >No</option>
+        <option value= 1 >Yes</option>
+      </select>
+
+      
+    <input type="submit" value="Predict">
+    </div>
+    </form>
+  </div>
+
+   
+  <div id="result">
+    {% if result is not none %}
+      Predicted Sales Price: {{ result }}
+    {% endif %}
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,99 @@
+
+  
+  h1 {
+    text-align:center;
+    font-size: 30px;
+    background-color: #f3f4f6;
+    color: #0d0c0c;
+    border-radius: 20px;
+    padding: 15px;
+    opacity: 0.7;
+    font-style:oblique ;
+    
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-image: url("images/exterior-1597098.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 20px;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    
+    
+    
+}
+
+  form {
+    margin: 0 auto;
+    width: 500px;
+    display: grid;
+    grid-template-columns:2fr 2fr;
+    gap: 15px;
+    color: #0c0c0c;
+    font-size: 10px;    
+
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: #ffffff; /* Set label text color */
+    font-size: 18px;
+    font-style: oblique;
+  }
+  
+  input,
+  select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ffffff; 
+    color: #333; 
+    background-color: rgba(255, 255, 255, 0.5); 
+    border-radius: 5px;
+  }
+  
+  input[type="submit"] {
+    background-color: #2163de;
+    color: #fbf9f8;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    
+  }
+
+  input:hover{
+    color: rgb(15, 3, 3);
+  }
+
+  #result{
+    background-color: #d7e7f1;
+    padding: 10px; 
+    margin: 500px;
+    border: 1px solid #ccc; 
+    font-family: 'Arial', sans-serif; 
+    color: #000000; 
+    text-align: center;
+    margin-top: 30px;
+    opacity: 0.8;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+  }
+
+
+  
+
+
+
+
+
+ 
+
+
+  
